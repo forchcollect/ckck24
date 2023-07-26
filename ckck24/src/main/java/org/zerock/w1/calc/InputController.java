@@ -1,4 +1,4 @@
-package org.zerock.w1;
+package org.zerock.w1.calc;
 
 
 import javax.servlet.RequestDispatcher;

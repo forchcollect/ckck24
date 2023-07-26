@@ -1,4 +1,4 @@
-package org.zerock.w1;
+package org.zerock.w1.calc;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,6 +19,6 @@ public class CalcController extends HttpServlet {
         System.out.printf(" num1: %s", num1);
         System.out.printf(" num2: %s", num2);
 
-        //현재 빈 화면
+        resp.sendRedirect("/index");
     }
 }
