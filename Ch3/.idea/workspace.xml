@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a164e25b-0543-4ddf-abd5-7f92917cfb2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ch2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/controller/TodoListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/controller/TodoModifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/controller/TodoReadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/controller/TodoRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/controller/TodoRemoveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/dao/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/dao/TodoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/domain/TodoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/dto/TodoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/webapp/WEB-INF/todo/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/webapp/WEB-INF/todo/read.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/main/webapp/WEB-INF/todo/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/test/java/org/zerock/jdbcex/dao/ConnectTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/test/java/org/zerock/jdbcex/dao/TodoDAOTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ch2/src/test/java/org/zerock/jdbcex/service/TodoServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/read.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/jdbcex/dao/ConnectTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/jdbcex/dao/TodoDAOTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zerock/jdbcex/service/TodoServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ch2/src/main/java/org/zerock/jdbcex/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ch2/src/test/java/org/zerock/dao/ConnectTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ckck24/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcex/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2TQ6S80Q36aQBaUnbbxWccZVI8g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Gradle : org.zerock : Ch3-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___org_zerock___Ch3_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.zerock : Ch3-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a164e25b-0543-4ddf-abd5-7f92917cfb2b" name="Changes" comment="" />
+      <created>1690962969026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690962969026</updated>
+      <workItem from="1690962970008" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
