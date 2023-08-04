@@ -2,7 +2,7 @@ package org.zerock.ch3.dao;
 
 import lombok.Cleanup;
 import org.zerock.ch3.domain.MemberVO;
-import org.zerock.jdbcex.dao.ConnectionUtil;
+import org.zerock.ch3.dao.ConnectionUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

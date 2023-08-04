@@ -2,7 +2,8 @@ package org.zerock.jdbcex.dao;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.zerock.jdbcex.domain.TodoVO;
+import org.zerock.ch3.dao.TodoDAO;
+import org.zerock.ch3.domain.TodoVO;
 
 import java.time.LocalDate;
 import java.util.List;

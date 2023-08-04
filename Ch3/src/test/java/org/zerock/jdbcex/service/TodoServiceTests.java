@@ -1,9 +1,9 @@
-package org.zerock.jdbcex.service;
+package org.zerock.ch3.service;
 
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.zerock.jdbcex.dto.TodoDTO;
+import org.zerock.ch3.dto.TodoDTO;
 
 import java.time.LocalDate;
 

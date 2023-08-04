@@ -1,4 +1,4 @@
-package org.zerock.jdbcex.dto;
+package org.zerock.ch3.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

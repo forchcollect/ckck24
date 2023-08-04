@@ -5,7 +5,7 @@ import org.modelmapper.ModelMapper;
 import org.zerock.ch3.dao.MemberDAO;
 import org.zerock.ch3.domain.MemberVO;
 import org.zerock.ch3.dto.MemberDTO;
-import org.zerock.jdbcex.util.MapperUtil;
+import org.zerock.ch3.util.MapperUtil;
 
 @Log4j2
 public enum MemberService {

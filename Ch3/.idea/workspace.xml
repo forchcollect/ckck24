@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a164e25b-0543-4ddf-abd5-7f92917cfb2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dao/MemberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/domain/MemberVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dto/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/filter/LoginCheckFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/filter/UTF8Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoModifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoModifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoReadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoReadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoRegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoRemoveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoRemoveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dao/ConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dao/ConnectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dao/MemberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dao/MemberDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dao/TodoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dao/TodoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/domain/TodoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/domain/TodoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dto/TodoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/dto/TodoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/util/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/util/MapperUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zerock/jdbcex/dao/TodoDAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zerock/jdbcex/dao/TodoDAOTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/zerock/jdbcex/service/TodoServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/zerock/jdbcex/service/TodoServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +208,7 @@
       <workItem from="1691056709350" duration="1710000" />
       <workItem from="1691058439855" duration="174000" />
       <workItem from="1691058625341" duration="1242000" />
-      <workItem from="1691129779140" duration="2491000" />
+      <workItem from="1691129779140" duration="3059000" />
     </task>
     <servers />
   </component>

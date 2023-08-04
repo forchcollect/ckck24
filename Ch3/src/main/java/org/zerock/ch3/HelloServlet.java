@@ -1,4 +1,4 @@
-package org.zerock.jdbcex;
+package org.zerock.ch3;
 
 import java.io.*;
 
