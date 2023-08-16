@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a164e25b-0543-4ddf-abd5-7f92917cfb2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/listener/LoginListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/listener/W2AppListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/944f53d7-eb20-42fd-979f-b5352c8a76c4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/944f53d7-eb20-42fd-979f-b5352c8a76c4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/controller/TodoListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/filter/UTF8Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zerock/ch3/filter/UTF8Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +193,8 @@
       <workItem from="1691058439855" duration="174000" />
       <workItem from="1691058625341" duration="1242000" />
       <workItem from="1691129779140" duration="5785000" />
-      <workItem from="1691561398321" duration="1884000" />
+      <workItem from="1691561398321" duration="2052000" />
+      <workItem from="1691656769726" duration="220000" />
     </task>
     <servers />
   </component>
