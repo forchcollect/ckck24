@@ -32,4 +32,7 @@
 
        <mybatis:scan base-package="org.zerock.ch4.mapper"></mybatis:scan>
 
+       <context:component-scan base-package="org.zerock.ch4.config" />
+       <context:component-scan base-package="org.zerock.ch4.service" />
+
 </beans>

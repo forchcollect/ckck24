@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h4>[[${list}]]</h4> <!-- 인라인으로 사용 -->
+  <hr />
+  <h4 th:text="${list}"></h4> <!-- th:text로 표현 -->
+
+  <!-- th:with 임시 변수 사용 -->
+  <div th:with="num1 = ${10}, num2 = ${20}">
+    <h4 th:text="${num1 + num2}"></h4>
+  </div>
+
+  <!--주석은 -->
+  <!--/* */ -->
+
+  <!-- list를 각각 뿌려주기 -->
+  <!--방법 1 : th:each 적용-->
+  <ul>
+    <li th:each="str: ${list}" th:text="${str}"></li>
+  </ul>
+  <!-- 방법 2 : <th:block> 태그 이용 -->
+  <ul>
+    <th:block th:each="str: ${list}">
+      <li>[[${str}]]</li>
+    </th:block>
+  </ul>
+
+  <!-- each에서 status 변수 사용 -->
+  <ul>
+    <li th:each="str,status: ${list}">
+      [[${status.index}]] -- [[${str}]]
+    </li>
+  </ul>
+
+  <!-- th:if, th:unless-->
+  <ul>
+    <li th:each="str, status: ${list}">
+      <span th:if="${status.odd}">ODD -- [[${str}]]</span>
+      <span th:unless="${status.odd}">EVEN -- [[${str}]]</span>
+    </li>
+  </ul>
+
+  <!-- ?연산자(이항/삼항연산자) -->
+  <ul>
+    <li th:each="str, status: ${list}">
+      <span th:text="${status.odd} ? 'ODD ---' + ${str} : 'EVEN ---' + ${str}"></span>
+    </li>
+  </ul>
+
+  <!--th:switch-->
+  <ul>
+    <li th:each="str,status:${list}">
+      <th:block th:switch="${status.index % 3}">
+        <span th:case="0">0</span>
+        <span th:case="1">1</span>
+        <span th:case="2">2</span>
+      </th:block>
+    </li>
+  </ul>
+</body>
+</html>
